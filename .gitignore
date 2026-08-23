@@ -1,0 +1,21 @@
+# Python
+backend/.deps/
+backend/.venv/
+backend/.pytest_cache/
+backend/**/__pycache__/
+backend/data/*.db*
+
+# Android
+.tooling/
+android/.gradle/
+android/local.properties
+android/**/build/
+*.apk
+*.jks
+*.keystore
+*.iml
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
