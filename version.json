@@ -1,0 +1,6 @@
+{
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "apkUrl": "https://github.com/were110954-ui/japanese-copywork/releases/download/v1.0.1/app-debug.apk",
+  "changelog": "1. 단어 터치 사전 기능 추가\n2. 후리가나 베이스라인 정렬 개선"
+}
