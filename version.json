@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.1",
-  "apkUrl": "https://github.com/were110954-ui/japanese-copywork/releases/download/v1.1.1/JapaneseCopywork-v1.1.1.apk",
-  "changelog": "1. 네이버 HTTP 429 재시도 및 지수 백오프 적용\n2. 요청 간 500~1000ms 속도 제한 적용\n3. 증분 동기화 조기 종료 적용\n4. 기사 저장 진행 상황 표시 개선",
-  "sha256": "B6809907F6DEE342F8ED74E84F88C4C0553AE522BF5420ADC7E1040ACB8F1514"
+  "versionCode": 4,
+  "versionName": "1.2.0",
+  "apkUrl": "https://github.com/were110954-ui/japanese-copywork/releases/download/v1.2.0/JapaneseCopywork-v1.2.0.apk",
+  "changelog": "1. 蚊 등 한자 뜻풀이 보강\n2. 刺される 후리가나 누락 수정\n3. 원문·번역 전체화면 포커스 모드 추가\n4. N2/N1 핵심 어휘 카드 및 단어장 저장 추가",
+  "sha256": "47D46DF0587A127529D29374D03B39C720AE3AF0CBE08A3DE7FCB635FE335E8E"
 }
