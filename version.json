@@ -1,0 +1,7 @@
+{
+  "versionCode": 5,
+  "versionName": "1.2.1",
+  "apkUrl": "https://github.com/were110954-ui/japanese-copywork/releases/download/v1.2.1/app-release.apk",
+  "changelog": "한국어 번역 전체화면 분리 및 헤더 겹침 수정",
+  "sha256": "8bd11e7fb55ed3e839aa52aacd0361cec717c50ad10ecdf81e282b9a50c7d3a6"
+}
