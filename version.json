@@ -1,7 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1.0",
-  "apkUrl": "https://github.com/were110954-ui/japanese-copywork/releases/download/v1.1.0/JapaneseCopywork-bootstrap-v1.1.0.apk",
-  "changelog": "1. 인앱 자동 업데이트 기능 추가\n2. 단어 터치 사전 기능 개선\n3. 후리가나 베이스라인 정렬 개선",
-  "sha256": "8E274B0ABDEB30446F15A169406C6BFF520A718F20DAC568F9CD7F5415385F6E"
+  "versionCode": 3,
+  "versionName": "1.1.1",
+  "apkUrl": "https://github.com/were110954-ui/japanese-copywork/releases/download/v1.1.1/JapaneseCopywork-v1.1.1.apk",
+  "changelog": "1. 네이버 HTTP 429 재시도 및 지수 백오프 적용\n2. 요청 간 500~1000ms 속도 제한 적용\n3. 증분 동기화 조기 종료 적용\n4. 기사 저장 진행 상황 표시 개선",
+  "sha256": "B6809907F6DEE342F8ED74E84F88C4C0553AE522BF5420ADC7E1040ACB8F1514"
 }
