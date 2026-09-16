@@ -18,6 +18,7 @@ data class HomeState(
     val completionTrend: List<Int> = List(7) { 0 }, val sync: SyncProgress = SyncProgress(),
 )
 
+@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private val repository = (application as CopyworkApp).repository
     private val filter = MutableStateFlow(ProgressFilter.INCOMPLETE)

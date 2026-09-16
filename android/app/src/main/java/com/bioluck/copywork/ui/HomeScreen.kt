@@ -5,6 +5,7 @@ import androidx.compose.foundation.lazy.*
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -28,7 +29,7 @@ private enum class MainSection { ARTICLES, VOCABULARY, STATS }
     val state by vm.state.collectAsStateWithLifecycle(); var section by remember { mutableStateOf(MainSection.ARTICLES) }
     Scaffold(containerColor = MaterialTheme.colorScheme.background, bottomBar = { NavigationBar {
         NavItem(section == MainSection.ARTICLES, Icons.Default.Home, "기사 목록") { section = MainSection.ARTICLES }
-        NavItem(section == MainSection.VOCABULARY, Icons.Default.MenuBook, "단어장") { section = MainSection.VOCABULARY }
+        NavItem(section == MainSection.VOCABULARY, Icons.AutoMirrored.Filled.MenuBook, "단어장") { section = MainSection.VOCABULARY }
         NavItem(section == MainSection.STATS, Icons.Default.BarChart, "통계") { section = MainSection.STATS }
     } }) { padding -> when (section) {
         MainSection.ARTICLES -> ArticleList(state, vm, onArticle, Modifier.padding(padding))

@@ -13,8 +13,8 @@ android {
         applicationId = "com.bioluck.copywork"
         minSdk = 26
         targetSdk = 35
-        versionCode = providers.gradleProperty("VERSION_CODE").orNull?.toInt() ?: 4
-        versionName = providers.gradleProperty("VERSION_NAME").orNull ?: "1.2.0"
+        versionCode = providers.gradleProperty("VERSION_CODE").orNull?.toInt() ?: 6
+        versionName = providers.gradleProperty("VERSION_NAME").orNull ?: "1.2.2"
         val updateManifestUrl = providers.gradleProperty("UPDATE_MANIFEST_URL").orNull.orEmpty()
         buildConfigField("String", "UPDATE_MANIFEST_URL", "\"${updateManifestUrl.replace("\\", "\\\\").replace("\"", "\\\"")}\"")
     }

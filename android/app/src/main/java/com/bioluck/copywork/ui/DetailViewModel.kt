@@ -20,6 +20,7 @@ data class DetailState(
     val advancedVocabulary: List<AdvancedVocabulary> = emptyList(),
 )
 
+@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class DetailViewModel(application: Application) : AndroidViewModel(application) {
     private val repository = (application as CopyworkApp).repository
     private val articleId = MutableStateFlow<Long?>(null)
